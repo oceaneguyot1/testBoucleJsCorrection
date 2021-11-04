@@ -10,7 +10,6 @@ function compteur() {
 }
 
 
-//appel de la fonction au chargement de la page
-compteur();
-
+//appel de la fonction au clic sur le bouton avec l'id 'valide'
+document.getElementById('valide').addEventListener('click', compteur);
 
