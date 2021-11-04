@@ -5,7 +5,7 @@ function compteur() {
 
     //boucle qui affiche dans le html le résultat
     for (let i = 0; i <= number; i++) {
-        document.getElementById('result').innerText += i;
+        document.getElementById('result').innerHTML += i + "&nbsp;";
     }
 }
 
