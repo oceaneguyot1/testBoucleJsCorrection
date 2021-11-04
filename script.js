@@ -3,9 +3,9 @@ function compteur() {
     //Variable avec le nombre récupéré de l'input type number
     let number = document.getElementById('number').value;
 
-    //boucle
+    //boucle qui affiche dans le html le résultat
     for (let i = 0; i <= number; i++) {
-        console.log(i);
+        document.getElementById('result').innerText += i;
     }
 }
 
